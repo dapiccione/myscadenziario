@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyScadenziario</title>
+  <style>
+    :root { --testo: #1f2430; --tenue: #6b7280; --bordo: #e3e5ea; --primario: #2f6fdf; --sfondo: #f5f6f8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --testo: #e6e8ec; --tenue: #9aa1ad; --bordo: #2e323b; --primario: #7aa5f5; --sfondo: #15171c; }
+    }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--testo); background: var(--sfondo); line-height: 1.6; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+    h1 { margin: 0 0 4px; }
+    .sottotitolo { color: var(--tenue); margin: 0 0 32px; }
+    a { color: var(--primario); }
+    footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--bordo); color: var(--tenue); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>MyScadenziario</h1>
+    <p class="sottotitolo">Scadenziario personale per pagamenti, tasse e rate.</p>
+
+    <p>
+      MyScadenziario è un'applicazione per uso personale che gira esclusivamente sul computer
+      del suo proprietario. Permette di registrare scadenze di pagamento (F24, rateizzazioni,
+      bollette, condominio…), ricevere promemoria e consultare i totali per mese e categoria.
+    </p>
+    <p>
+      Facoltativamente l'applicazione può essere collegata a <strong>Google Calendar</strong> per
+      creare un evento con promemoria per ogni scadenza. L'accesso al calendario è usato solo per
+      creare, aggiornare ed eliminare gli eventi delle scadenze gestite dall'applicazione.
+    </p>
+    <p>
+      Non è un servizio pubblico: non è possibile registrarsi e nessun dato viene raccolto da
+      terze parti.
+    </p>
+
+    <p><a href="privacy.html">Norme sulla privacy</a></p>
+
+    <footer>Contatti: <a href="mailto:dapiccione@gmail.com">dapiccione@gmail.com</a></footer>
+  </main>
+</body>
+</html>
